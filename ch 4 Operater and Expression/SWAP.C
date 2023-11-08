@@ -1,5 +1,6 @@
-#include<stdio>
-#include<conio>
+#include<stdio.h>
+#include<conio.h>
+main()
 {
 	int a,b,c;
 
@@ -13,9 +14,9 @@
 	printf("a=%d",a);
 	printf("b=%d",b);
 
+	c=a;
 	a=b;
 	b=c;
-	c=a;
 
 	printf("a = %d",a);
 	printf("b = %d",b);
